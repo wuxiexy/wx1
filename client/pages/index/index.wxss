@@ -1,0 +1,47 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 400rpx;
+}
+
+.index-search {
+  height: 100rpx;
+  padding: 20rpx;
+  background-color: #76B9ED;
+}
+
+.index-search .form-control {
+  border-radius: 100rpx;
+}
+
+.index-banner {
+  height: 300rpx;
+  background-color: #eee;
+}
+
+.slide-item .slide-image {
+  width: 100%;
+  height: 300rpx;
+  background: #eee no-repeat center center;
+  background-size: cover !important;
+}
+
+
+
+

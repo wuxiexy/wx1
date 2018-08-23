@@ -1,0 +1,21 @@
+<!--pages/me/me.wxml-->
+<view class='me-wrapper'>
+
+  <view class='me-header'>
+    <text>小青龙</text>    
+  </view>
+
+  <view class='me-content'>
+
+    <view class='me-list' wx:for="{{lists}}">
+      <text>{{item}}</text>
+    </view>
+
+  </view>
+
+  <view class='me-footer'></view>
+  
+</view>
+
+
+<!-- <navigator url="/pages/logs/logs" hover-class="navigator-hover">去log页面</navigator> -->

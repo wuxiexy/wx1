@@ -1,0 +1,10 @@
+/* pages/picture/picture.wxss */
+
+.pic {
+  line-height: 220rpx;
+  padding: 0 40rpx;
+  font-size: 48rpx;
+  background-color: #A4C2FE;
+}
+
+

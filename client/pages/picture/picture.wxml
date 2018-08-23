@@ -1,0 +1,4 @@
+<!--pages/picture/picture.wxml-->
+<view class='pic'>
+  <text>照片集</text>
+</view>

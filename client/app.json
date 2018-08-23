@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/me/news/news",
+    "pages/picture/picture",
+    "pages/picture/picture/detailed"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#76B9ED",
+    "navigationBarTitleText": "小窝",
+    "navigationBarTextStyle":"white",
+    "networkTimeout": 2000
+  },"tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "小窝",
+        "selectedIconPath": "images/home-active.png",
+        "iconPath": "images/home.png"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "text": "照片",
+        "selectedIconPath": "images/picture-active.png",
+        "iconPath": "images/picture.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "selectedIconPath": "images/me-active.png",
+        "iconPath": "images/me.png"
+      }
+    ]
+  }
+}

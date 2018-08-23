@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "小青龙",
+  "navigationBarBackgroundColor": "#3785FE",
+  "navigationBarTextStyle": "white",
+  "backgroundTextStyle": "dark",
+  "onReachBottomDistance": 50,
+  "networkTimeout": 2000
+}

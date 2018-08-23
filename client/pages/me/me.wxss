@@ -1,0 +1,22 @@
+/* pages/me/me.wxss */
+
+.me-list {
+  height:  120rpx;
+  line-height: 120rpx;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #ededed;
+}
+
+.me-header {
+  height: 360rpx;
+  line-height: 360rpx;
+  padding: 0 40rpx;
+  font-size: 48rpx;
+}
+
+.me-content > .me-list:first-child {
+  border-top: 1rpx solid #ededed;  
+}
+
+
+
