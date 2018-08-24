@@ -1,0 +1,55 @@
+
+
+https://blog.csdn.net/qq_41080490/article/details/80267742
+
+<view class='wrapper'>
+  <view class='page-title mb10'>当前热映电影</view>
+  <view class='mb10'>
+    <input type='text' class='form-control' bindinput='searchInput' placeholder='请输入你需要查找的城市名称'/>
+  </view>
+  <button size='mini' bindtouchstart='movieSearch'>查找</button>
+</view>
+
+<view wx:if="{{hasSearch}}">
+  <view class='fs16'>{{title}}</view>
+  <view class='group-row' wx:for="{{lists}}">
+    <view class='gr-con'>
+      <image src="{{item['images']['large']}}" mode="widthFix"/>
+    </view>
+    <view class='gr-info'>
+      <view>
+        <label>导演：</label>
+        <text>{{item.title}}</text>        
+      </view>
+      <view>
+        <label>上演年份：</label>
+        <text>{{item.year}}</text>        
+      </view>
+      <view>
+        <label>类型：</label>
+        <text>{{item.genres.join(',')}}</text>        
+      </view>
+
+      <view>
+        <label>时长：</label>
+        <text>{{item.durations[0]}}</text>        
+      </view>
+      <view>
+        <label>已观看人数：</label>
+        <text>{{item.collect_count}}</text>        
+      </view>
+      
+  
+
+
+    </view>
+  </view>
+</view>
+
+<view class='to-top' bindtap='toTop'>
+  T
+</view>
+
+
+
+

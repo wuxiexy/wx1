@@ -11,12 +11,10 @@
 	"libVersion": "1.7.0",
 	"appid": "wx44171bf686837d77",
 	"projectname": "trendy",
-
-  "client": "./client",
-  "svr": "./server",
-  "miniprogramRoot": "./client",
-  "qcloudRoot": "./server",
-
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
 	"condition": {
 		"search": {
 			"current": -1,

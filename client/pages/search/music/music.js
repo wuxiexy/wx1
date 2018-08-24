@@ -1,4 +1,4 @@
-// pages/picture/picture.js
+// pages/search/music/music.js
 Page({
 
   /**
@@ -63,7 +63,4 @@ Page({
   onShareAppMessage: function () {
   
   }
-  
-
-
 })

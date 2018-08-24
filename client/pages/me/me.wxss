@@ -6,12 +6,17 @@
   padding: 0 20rpx;
   border-bottom: 1rpx solid #ededed;
 }
-
+.me-list text {
+  font-size: 30rpx;
+}
 .me-header {
   height: 360rpx;
   line-height: 360rpx;
   padding: 0 40rpx;
   font-size: 48rpx;
+}
+.me-header text {
+  font-size: 36rpx;
 }
 
 .me-content > .me-list:first-child {

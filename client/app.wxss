@@ -11,7 +11,14 @@ video, live-player, live-pusher, open-data, web-view
   -webkit-box-sizing: border-box;  
   -moz-box-sizing: border-box;    
   box-sizing: border-box;
+
+  font-size: 0;
 } 
+
+
+image {
+  width: 100%;
+}
 
 
 .container {
@@ -29,9 +36,110 @@ video, live-player, live-pusher, open-data, web-view
 .form-control {
    border: 1px solid #e5e5e5;
    height: 30px;
-   line-height: 30px;
+   line-height: 28px;
    text-align: center;
    color: #333;
    font-size: 13px;
    background-color: #fff;
+   padding-left: 10rpx;
+   padding-right: 10rpx;   
+   border-radius: 4rpx;
 }
+
+.wrapper {
+  padding: 40rpx 20rpx;
+}
+
+.page-title {
+  font-size: 36rpx;
+  color: #333;
+}
+
+.mb5 {
+  margin-bottom: 10rpx;
+}
+.mb10 {
+  margin-bottom: 20rpx;
+}
+.mb15 {
+  margin-bottom: 30rpx;
+}
+.mb20 {
+  margin-bottom: 40rpx;
+}
+
+.fs12 {
+  font-size: 24rpx;
+}
+.fs14 {
+  font-size: 28rpx;
+}
+.fs15 {
+  font-size: 30rpx;
+}
+.fs16 {
+  font-size: 32rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 块 start */
+.group {
+  padding: 20rpx;
+  border-radius: 3px;
+  border: 1rpx solid rgba(0,0,0,.5)
+}
+.group-example {
+  background-color: rgba(0,0,0,0.5);
+}
+/* 块 end */
+
+
+
+/* 回到顶部 */
+.to-top {
+  width: 60rpx;
+  height: 60rpx;
+  line-height: 58rpx;
+  text-align: center;
+  border: 1rpx solid #fff;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 32rpx;
+  position: fixed;
+  right: 20rpx;
+  bottom: 30rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

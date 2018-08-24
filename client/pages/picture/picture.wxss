@@ -3,8 +3,14 @@
 .pic {
   line-height: 220rpx;
   padding: 0 40rpx;
-  font-size: 48rpx;
   background-color: #A4C2FE;
 }
 
+.pic text {
+  font-size: 48rpx;
+}
+
+.mt20 {
+  margin-top: 40rpx;
+}
 

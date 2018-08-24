@@ -1,0 +1,35 @@
+/* pages/search/movie/movie.wxss */
+
+.form-control {
+  text-align: left
+}
+
+/* .group-row {
+  font-size: 0;  
+  display: inline-block;
+  width: 50%;
+} */
+
+.group-row {
+  margin-top: 40rpx;
+  background-color: #eee;
+}
+
+.gr-info {
+  padding: 20rpx;
+
+}
+
+.gr-info label,
+.gr-info text 
+{
+  font-size: 30rpx;
+}
+
+.gr-info > view {
+  margin: 20rpx 0;
+}
+
+
+
+

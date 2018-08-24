@@ -5,7 +5,9 @@
     "pages/me/me",
     "pages/me/news/news",
     "pages/picture/picture",
-    "pages/picture/picture/detailed"
+    "pages/picture/picture/detailed",
+    "pages/search/movie/movie",
+    "pages/search/music/music"    
   ],
   "window":{
     "backgroundTextStyle":"light",

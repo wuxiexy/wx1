@@ -2,3 +2,14 @@
 <view class='pic'>
   <text>照片集</text>
 </view>
+
+
+
+<view class='mt20'>
+  <navigator class='fs16' url="/pages/search/movie/movie" hover-class="navigator-hover">电影搜索</navigator>
+</view>
+<view class='mt20'>
+  <navigator class='fs16' url="/pages/search/music/music" hover-class="navigator-hover">音乐搜索</navigator>
+</view>
+
+
