@@ -1,8 +1,5 @@
 /* pages/search/movie/movie.wxss */
 
-.form-control {
-  text-align: left
-}
 
 /* .group-row {
   font-size: 0;  

@@ -34,16 +34,16 @@ image {
 
 
 .form-control {
-   border: 1px solid #e5e5e5;
-   height: 30px;
-   line-height: 28px;
-   text-align: center;
+   border: 1rpx solid #e5e5e5;
+   height: 66rpx;
+   line-height: 64rpx;
+   text-align: left;
    color: #333;
-   font-size: 13px;
+   font-size: 26rpx;
    background-color: #fff;
    padding-left: 10rpx;
    padding-right: 10rpx;   
-   border-radius: 4rpx;
+   border-radius: 6rpx;
 }
 
 .wrapper {
@@ -53,6 +53,19 @@ image {
 .page-title {
   font-size: 36rpx;
   color: #333;
+}
+
+.mt5 {
+  margin-top: 10rpx;
+}
+.mt10 {
+  margin-top: 20rpx;
+}
+.mt15 {
+  margin-top: 30rpx;
+}
+.mt20 {
+  margin-top: 40rpx;
 }
 
 .mb5 {

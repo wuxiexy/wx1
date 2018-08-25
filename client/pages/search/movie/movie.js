@@ -7,6 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    topNum: 0,
     search: '',                 // 要搜索的城市
     hasSearch: false,           // 用于显示搜索到的电影的内容
     title: '',                  // 搜索之后的头部
@@ -250,7 +251,10 @@ Page({
 
 
   toTop(){
-    util.toTop();
+    // util.toTop();
+    this.setData({
+      topNum: this.data.topNum = 0
+    });
   }
 
 

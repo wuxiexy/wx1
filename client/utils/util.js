@@ -30,8 +30,16 @@ const toTop = n => {
 }
 
 
+// 秒钟转分钟
+const secondToMinute = n => {
+  return Math.floor(n / 60) + ":" + ('0' + n % 60).slice(-2);
+}
+
+
+
 
 module.exports = {
   formatTime: formatTime
   , toTop: toTop
+  , secondToMinute: secondToMinute
 }

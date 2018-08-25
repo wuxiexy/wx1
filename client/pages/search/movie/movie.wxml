@@ -1,13 +1,13 @@
 
 
-https://blog.csdn.net/qq_41080490/article/details/80267742
+<!-- https://blog.csdn.net/qq_41080490/article/details/80267742 -->
 
 <view class='wrapper'>
   <view class='page-title mb10'>当前热映电影</view>
   <view class='mb10'>
     <input type='text' class='form-control' bindinput='searchInput' placeholder='请输入你需要查找的城市名称'/>
   </view>
-  <button size='mini' bindtouchstart='movieSearch'>查找</button>
+  <button size='mini' bindtouchstart='movieSearch'>找一找</button>
 </view>
 
 <view wx:if="{{hasSearch}}">

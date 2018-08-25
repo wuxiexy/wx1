@@ -1,2 +1,42 @@
+// pages/search/movie/movie.js
+const util = require('../../../utils/util.js');
+
 <!--pages/search/music/music.wxml-->
-<text>pages/search/music/music.wxml</text>
+<view class='wrapper'>
+  <view class='page-title mb15'>流行音乐</view>
+  <view class='search-tap mb15' bindtap='changeSearch'>
+    <view class='search-tap-list {{searchActive?"active":""}}' data-type="0">找歌手</view>
+    <view class='search-tap-list  {{searchActive?"":"active"}}' data-type="1">找歌曲</view>    
+  </view>
+
+  <view class='mb15'>
+    <input wx:if="{{searchType}}" type='text' class='form-control' bindinput='searchInput' placeholder='找个歌手看看'/>
+    <input wx:if="{{!searchType}}" type='text' class='form-control' bindinput='searchInput' placeholder='找首音乐听听'/>
+    
+  </view>
+
+  <button size='mini' bindtap='searchBtn'>找一找</button>
+</view>
+
+
+
+<view class='group-lists' wx:if="{{hasSearch}}">
+
+  <view class='gl-title'>搜索到<text class='glt-name'>“{{search}}”</text>相关的歌曲</view>  
+  
+  <view class='gl-row mt20 glr-title'>
+    <text>歌曲名</text>
+    <text>专辑</text>
+    <text>时长</text>
+  </view>
+ 
+  <view catchtap='elClick'>
+    <view class='gl-row' wx:for='{{lists}}' data-hash="{{item.FileHash}}">
+      <text data-hash="{{item.FileHash}}">{{item.FileName}}</text>
+      <text data-hash="{{item.FileHash}}">{{item.AlbumName}}</text>
+      <text data-hash="{{item.FileHash}}">{{item.Duration}}</text>
+    </view>
+  </view>  
+
+
+</view>

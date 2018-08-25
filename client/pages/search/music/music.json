@@ -1,1 +1,4 @@
-{}
+{
+  "onReachBottomDistance": 10,
+  "networkTimeout": 5000
+}

@@ -1,1 +1,80 @@
 /* pages/search/music/music.wxss */
+
+.search-tap .search-tap-list {
+  font-size: 28rpx;
+  display: inline-block;
+  padding: 12rpx 16rpx;
+  background-color: #eee;
+  border-radius: 6rpx;
+  margin-right: 20rpx;
+}
+
+.search-tap .search-tap-list:active {
+  /* background-color: rgba(238,238,238,.8); */
+  /* color: rgba() */
+  /* opacity: .8; */
+}
+
+.search-tap-list.active {
+  background-color: #76B9ED;
+  color: #fff;
+}
+
+
+.gl-title {
+  padding-left: 20rpx;
+}
+.gl-title, .gl-row text
+{
+  font-size: 28rpx;
+}
+
+.glt-name {
+  font-size: 28rpx;  
+  color: #14a9ff;
+}
+
+.gl-row {
+  padding: 30rpx 20rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.glr-title {
+  background-color: #f8f8f8;
+  color: #999;
+}
+
+.gl-row text {
+  display: inline-block;
+}
+
+.gl-row text:nth-child(1),
+.gl-row text:nth-child(2)
+{
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.gl-row text:nth-child(1) {
+  width: 48%;
+  padding-right:20rpx;  
+}
+
+.gl-row text:nth-child(2) {
+  width: 40%;
+}
+
+.gl-row text:nth-child(3) {
+  width: 12%;
+  text-align: right
+}
+
+
+
+
+
+
+
+
+
+

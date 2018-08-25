@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#76B9ED",
+  "navigationBarTitleText": "音乐播放器",
+  "navigationBarTextStyle": "white",
+  "networkTimeout": 2000
+}

@@ -42,6 +42,8 @@
   background-size: cover !important;
 }
 
-
+.form-control {
+  text-align: center
+}
 
 
