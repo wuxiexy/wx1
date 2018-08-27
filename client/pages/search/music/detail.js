@@ -9,7 +9,7 @@ Page({
     // , tips: '歌曲id有误'
 
 
-
+    , loadTips: 'loading...'
     , search: ''                // 搜索字段
     , page: 1                    // 当前页数
     , count: 10                    // 一次load多少条数据
@@ -123,11 +123,17 @@ Page({
 
     // =1&=100&=-1&clientver=&platform=WebFilter&tag=em    &filter=2&iscorrection=1&privilege_filter=0%EF%BC%9B
 
+    // http://wwwapi.kugou.com/yy/index.php?r=&callback=&hash=&album_id=9605024&_=1535336213803
+
     // 请求数据
     wx.request({
-      url: 'http://www.kugou.com/yy/index.php?r=play/getdata&hash=5FCE4CBCB96D6025033BCE2025FC3943&album_id=1645030&_=1497972864535',
+      url: 'https://wwwapi.kugou.com/yy/index.php',
       data: {
-        hash: that.data.search
+        r: 'play/getdata'
+        , callback: 'jQuery19107614731916265496_1535336213801'
+        , hash: '9FBBC350B1E95C11CCC6BC60B362AF6D'
+        , album_id: '9605024'
+        , _: '1535336213803'
       },
       header: {
         // 'content-type': 'application/json'         // 默认值
@@ -158,6 +164,15 @@ Page({
         //   that.cb(data);
 
         // }
+      }
+      , fail(e){
+        wx.hideLoading();           // 需要主动调用才会关闭 loading 动画
+        
+        that.setData({
+          hasSearch: 2
+          , loadTips: e
+        });
+        console.log(e);
       }
     });
 

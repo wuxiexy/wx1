@@ -12,4 +12,21 @@
   <navigator class='fs16' url="/pages/search/music/music" hover-class="navigator-hover">流行音乐</navigator>
 </view>
 
+<view class='mt20'>
+  <navigator class='fs16' url="/pages/search/cartoon/cartoon" hover-class="navigator-hover">热血漫画</navigator>
+</view>
+
+<!-- <image src='http://pic01.ishuhui.com/cartoon/book/thumb/1/YDdFCpDpUAveOWJvxJRusmHb.jpg' mode="widthFix"></image> -->
+
+<!-- <image src='http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://pic04.ishuhui.com/cartoon/book-1/1/915-11067/00.png?ea516850' mode="widthFix"></image> -->
+
+
+<!-- <image src='http://img4.2345.com/duoteimg/dtnew_newsup_img/201808/20180810110933_53937.jpg' mode="widthFix"></image> -->
+
+
+
+
+
+
+
 

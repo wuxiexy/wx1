@@ -1,0 +1,15 @@
+<!--pages/search/cartoon/cartoon.wxml-->
+
+
+<view class='group-col' catchtap='elClick'>
+
+    <view class='gc-list' wx:for='{{lists}}' data-hash="{{item.book}}">
+    
+        <image data-hash="{{item.book}}" src="http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl={{item.thumb}}" mode="widthFix"/>
+
+        <text data-hash="{{item.book}}">{{item.name}}</text>
+    </view>
+
+</view>
+
+

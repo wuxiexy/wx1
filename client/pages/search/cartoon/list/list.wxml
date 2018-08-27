@@ -1,0 +1,32 @@
+<!--pages/search/cartoon/list/list.wxml-->
+
+
+<view wx:if="hasSearch">
+
+    <view class='mb20'>
+        <image data-src="{{banner}}" src="http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl={{banner}}" mode="widthFix"/>
+    </view>
+
+
+    <view class='lists-title'>
+        <text>漫画：{{name}}</text>    
+        <text>作者：{{author_name}}</text>
+        <text>类别：{{tag}}</text>
+        <text>简介：{{desc}}</text>
+    </view>
+
+
+      <view class='mt50' catchtap='elClick'>
+        <view class='gl-row' wx:for='{{lists}}' data-hash="{{index}}">
+            <text data-hash="{{index}}">第{{index}}话</text>
+            <text data-hash="{{index}}">{{item[0].title}}</text>
+        </view>
+    </view>  
+
+
+</view>
+
+
+
+
+

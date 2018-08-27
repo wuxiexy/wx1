@@ -8,7 +8,10 @@
     "pages/picture/picture/detailed",
     "pages/search/movie/movie",
     "pages/search/music/music",
-    "pages/search/music/detail"
+    "pages/search/music/detail",
+    "pages/search/cartoon/cartoon",
+    "pages/search/cartoon/detail/detail",
+    "pages/search/cartoon/list/list"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,9 +1,16 @@
 <!--pages/search/music/detail.wxml-->
 <!-- <text>pages/search/music/detail.wxml</text> -->
 
-<view>
-
+<view wx:if="{{hasSearch===1}}">
+  <text class='fs15'>{{loadTips}}</text>
 </view>
+
+<view wx:if="{{hasSearch===2}}">
+  <text class='fs15'>获取失败：</text>
+  <text class='fs15'>{{loadTips.errMsg}}</text>
+</view>
+
+
 
 
 

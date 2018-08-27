@@ -67,6 +67,9 @@ image {
 .mt20 {
   margin-top: 40rpx;
 }
+.mt50 {
+  margin-top: 100rpx;
+}
 
 .mb5 {
   margin-bottom: 10rpx;

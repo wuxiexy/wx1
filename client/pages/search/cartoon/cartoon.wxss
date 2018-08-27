@@ -1,0 +1,38 @@
+/* pages/search/cartoon/cartoon.wxss */
+.group-col {
+    padding: 0 20rpx 20rpx;
+}
+
+.gc-list {
+    width: 49%;
+    display: inline-block;
+    position: relative;
+    margin-top: 20rpx;
+    font-size: 0;
+}
+
+.gc-list:nth-child(odd) {
+    
+}
+.gc-list:nth-child(even) {
+    margin-left: 2%;
+}
+
+
+.gc-list image {
+    width: 100%;
+}
+.gc-list text {
+    font-size: 28rpx;
+    color: #fff;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: right;
+    padding: 0 20rpx;
+    background-color: rgba(30,30,34,.7);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
