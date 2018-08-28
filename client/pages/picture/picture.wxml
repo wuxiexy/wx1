@@ -6,15 +6,23 @@
 
 
 <view class='mt20'>
-  <navigator class='fs16' url="/pages/search/movie/movie" hover-class="navigator-hover">流行电影</navigator>
+  <navigator class='btn fs16' data-type="primary" data-size="mini" url="/pages/search/movie/movie" hover-class="navigator-hover">流行电影</navigator>
 </view>
+
+
 <view class='mt20'>
-  <navigator class='fs16' url="/pages/search/music/music" hover-class="navigator-hover">流行音乐</navigator>
+  <navigator class='btn fs16' data-type="primary" data-size="mini" url="/pages/search/music/music" hover-class="navigator-hover">流行音乐</navigator>
 </view>
 
 <view class='mt20'>
-  <navigator class='fs16' url="/pages/search/cartoon/cartoon" hover-class="navigator-hover">热血漫画</navigator>
+  <navigator class='btn fs16' data-type="primary" data-size="mini" url="/pages/search/cartoon/cartoon" hover-class="navigator-hover">热血漫画</navigator>
 </view>
+
+
+<view class='mt20'>
+  <navigator class='btn fs16' data-type="primary" data-size="mini" url="/pages/search/car/car" hover-class="navigator-hover">认识汽车</navigator>
+</view>
+
 
 <!-- <image src='http://pic01.ishuhui.com/cartoon/book/thumb/1/YDdFCpDpUAveOWJvxJRusmHb.jpg' mode="widthFix"></image> -->
 

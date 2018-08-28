@@ -1,0 +1,52 @@
+/* pages/search/car/car.wxss */
+
+.gc-row {
+    background-color: #eee;
+    margin-top: 20rpx;
+    height: inherit;
+    border-top:1rpx solid #eee;
+    border-bottom: 1rpx solid #eee;
+}
+
+.gc-row > view {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.gc-img {
+    width: 20%;
+
+}
+
+.gc-con {
+    width: 80%;
+    padding-left: 20rpx;
+}
+.gc-con text {
+    font-size: 32rpx;
+    line-height: 72rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

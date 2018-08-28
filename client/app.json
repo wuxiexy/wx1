@@ -11,7 +11,8 @@
     "pages/search/music/detail",
     "pages/search/cartoon/cartoon",
     "pages/search/cartoon/detail/detail",
-    "pages/search/cartoon/list/list"
+    "pages/search/cartoon/list/list",
+    "pages/search/car/car"
   ],
   "window":{
     "backgroundTextStyle":"light",

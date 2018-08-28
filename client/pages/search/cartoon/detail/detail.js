@@ -99,10 +99,18 @@ Page({
         // http://wwwapi.kugou.com/yy/index.php?r=&callback=&hash=&album_id=9605024&_=1535336213803
 
 
+
+
+
+        // http://www.ishuhui.com/cartoon/num/1-0-n-101
+
+
         // console.log('https://www.ishuhui.com/cartoon/book/' + that.data.search);
         // 请求数据
         wx.request({
-            url: 'https://api.ishuhui.com/cartoon/book_ish/ver/8a518961/id/' + that.data.search + '.json',
+            // url: 'https://api.ishuhui.com/cartoon/book_ish/ver/8a518961/id/' + that.data.search + '.json',
+            // url: 'https://ac.qq.com/ComicView/index/id/505430/cid/933',
+            url: 'https://ac.qq.com/ComicView/index/id/505430/cid/930',
             data: {
                 r: 'play/getdata'
                 , callback: 'jQuery19107614731916265496_1535336213801'

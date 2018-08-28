@@ -1,0 +1,20 @@
+<!--pages/search/car/car.wxml-->
+<!-- <text>pages/search/car/car.wxml</text> -->
+
+
+<view class='group-car' catchtap='elClick'>
+    <view class='gc-row' wx:for='{{lists}}' data-hash='{{item.id}}'>
+        <view class='gc-img'>
+            <image data-hash='{{item.id}}' src='{{item.logo}}' mode='widthFix'/>
+        </view>
+        <view data-hash='{{item.id}}' class='gc-con'>
+            <text>{{item.name}}</text>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
